@@ -1,0 +1,143 @@
+/* Base Body Styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif; /* font-family */
+  background-color: #f1f5f9;                 /* colors */
+  color: #334155;                             /* colors */
+  margin: 0;                                  /* margin */
+  padding: 30px 0;                            /* padding */
+}
+
+/* ID Selector: Outer Container */
+#resume-wrapper {
+  width: 750px;                               /* width */
+  margin: 0 auto;                             /* margin centering */
+  background-color: #ffffff;                  /* colors */
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* ID Selector: Header Section */
+#header {
+  background-color: #1e293b;                  /* colors (Dark Navy) */
+  color: #ffffff;                             /* colors */
+  text-align: center;
+  padding: 30px 20px 25px 20px;               /* padding */
+}
+
+/* Contextual Selectors: Header Elements */
+#header img.avatar {                          /* class & contextual selector */
+  width: 90px;                                /* width */
+  height: 90px;                               /* height */
+  border-radius: 50%;
+  border: 3px solid #38bdf8;                  /* colors (Bright Cyan) */
+  object-fit: cover;
+  margin-bottom: 10px;                        /* margin */
+}
+
+#header h1 {                                  /* contextual selector */
+  font-size: 28px;
+  margin: 5px 0;                              /* margin */
+  color: #ffffff;                             /* colors */
+}
+
+#header p.subtitle {                          /* contextual selector */
+  color: #38bdf8;                             /* colors */
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 15px 0;                         /* margin */
+}
+
+#header .contact-info {                       /* contextual selector */
+  font-size: 13px;
+  color: #cbd5e1;                             /* colors */
+}
+
+#header .contact-info .separator {
+  margin: 0 8px;                              /* margin */
+  color: #38bdf8;                             /* colors */
+}
+
+/* ID Selector: Main Content Container */
+#main-content {
+  padding: 30px 40px;                         /* padding */
+}
+
+/* Class Selector: Section Wrapper */
+.resume-section {                             /* class selector */
+  margin-bottom: 25px;                        /* margin */
+}
+
+/* Class Selector: Section Titles */
+.section-title {                              /* class selector */
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;                             /* colors */
+  border-bottom: 2px solid #bae6fd;           /* colors & border */
+  padding-bottom: 5px;                        /* padding */
+  margin-bottom: 12px;                        /* margin */
+}
+
+/* Contextual Selectors: Content Formatting */
+.resume-section p {                           /* contextual selector */
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;                         /* margin */
+}
+
+.job-item h3, .edu-item h3 {                  /* contextual selector */
+  font-size: 15px;
+  margin: 0 0 4px 0;                          /* margin */
+  color: #1e293b;                             /* colors */
+}
+
+.highlight {                                  /* class selector */
+  color: #0284c7;                             /* colors (Blue) */
+  font-weight: 600;
+}
+
+.date {                                       /* class selector */
+  font-size: 12px;
+  color: #64748b;                             /* colors */
+  margin-bottom: 8px;                         /* margin */
+}
+
+.resume-section ul {                          /* contextual selector */
+  margin: 5px 0 15px 20px;                    /* margin */
+  padding: 0;                                 /* padding */
+}
+
+.resume-section ul li {                       /* contextual selector */
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin-bottom: 5px;                         /* margin */
+  color: #334155;                             /* colors */
+}
+
+/* Sub-category Heading with Vertical Accent Bar */
+.skill-category {                             /* class selector */
+  margin-bottom: 15px;                        /* margin */
+}
+
+.category-header {                            /* class selector */
+  font-size: 14px;
+  color: #1e293b;                             /* colors */
+  border-left: 3px solid #0284c7;             /* colors */
+  padding-left: 8px;                          /* padding */
+  margin: 10px 0 8px 0;                       /* margin */
+}
+
+/* ID Selector: Footer */
+#footer {                                     /* id selector */
+  background-color: #f8fafc;                  /* colors */
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+  padding: 15px;                              /* padding */
+  height: 20px;                               /* height */
+}
+
+#footer p {                                   /* contextual selector */
+  font-size: 12px;
+  color: #64748b;                             /* colors */
+  margin: 0;                                  /* margin */
+}
